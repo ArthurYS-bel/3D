@@ -9,7 +9,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'tv',
       isModel: false,
-      images: ['/photos/tv_1.jpg', '/photos/tv_2.jpg'],
+      images: ['/3D/photos/tv_1.jpg', '/3D/photos/tv_2.jpg'],
       position: { x: 8, y: -1, z: -2.9 },
       rotation: { x: 0, y: Math.PI / 2, z: 0 },
       color: 0xffffff,
@@ -20,7 +20,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'torchere',
       isModel: false,
-      images: ['/photos/torchere_1.jpg', '/photos/torchere_2.jpg', '/photos/torchere_3.jpg'],
+      images: ['/3D/photos/torchere_1.jpg', '/3D/photos/torchere_2.jpg', '/3D/photos/torchere_3.jpg'],
       position: { x: -8, y: -0.5, z: 3.8 },
       rotation: { x: 0, y: Math.PI / 2, z: 0 },
       color: 0xffffff,
@@ -31,7 +31,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'sofa',
       isModel: false,
-      images: ['/photos/sofa_1.jpg', '/photos/sofa_2.jpg', '/photos/sofa_3.jpg'],
+      images: ['/3D/photos/sofa_1.jpg', '/3D/photos/sofa_2.jpg', '/3D/photos/sofa_3.jpg'],
       position: { x: -8, y: -2.5, z: 0 },
       rotation: { x: 0, y: Math.PI / 2, z: 0 },
       color: 0xffffff,
@@ -42,7 +42,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'sewing',
       isModel: false,
-      images: ['/photos/sewing_1.jpg', '/photos/sewing_2.jpg', '/photos/sewing_3.jpg', '/photos/sewing_4.jpg',],
+      images: ['/3D/photos/sewing_1.jpg', '/3D/photos/sewing_2.jpg', '/3D/photos/sewing_3.jpg', '/3D/photos/sewing_4.jpg',],
       position: { x: 0.5, y: -0.5, z: 8 },
       rotation: { x: 0, y: Math.PI, z: 0 },
       color: 0xfffffff,
@@ -51,7 +51,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'siphon',
       isModel: false,
-      images: ['/photos/siphon_1.jpg', '/photos/siphon_2.jpg', '/photos/siphon_3.jpg'],
+      images: ['/3D/photos/siphon_1.jpg', '/3D/photos/siphon_2.jpg', '/3D/photos/siphon_3.jpg'],
       position: { x: -1.5, y: -0.8, z: 8 },
       rotation: { x: 0, y: Math.PI, z: 0 },
       color: 0xfffffff,
@@ -73,7 +73,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'bages',
       isModel: false,
-      images: ['/photos/badges_1.jpg', '/photos/badges_2.jpg', '/photos/badges_3.jpg', '/photos/badges_5.jpg'],
+      images: ['/3D/photos/badges_1.jpg', '/3D/photos/badges_2.jpg', '/3D/photos/badges_3.jpg', '/3D/photos/badges_5.jpg'],
       position: { x: 8, y: -0.8, z: 0.5 },
       rotation: { x: 0, y: Math.PI / 2, z: 0 },
       color: 0xffffff,
@@ -83,8 +83,8 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
       name: 'money',
       isModel: false,
       images: [
-        '/photos/money_1.jpg', '/photos/money_2.jpg', '/photos/money_3.jpg', '/photos/money_4.jpg',
-        '/photos/money_5.jpg', '/photos/money_6.jpg', '/photos/money_7.jpg', '/photos/money_8.jpg'
+        '/3D/photos/money_1.jpg', '/3D/photos/money_2.jpg', '/3D/photos/money_3.jpg', '/3D/photos/money_4.jpg',
+        '/3D/photos/money_5.jpg', '/3D/photos/money_6.jpg', '/3D/photos/money_7.jpg', '/3D/photos/money_8.jpg'
       ],
       position: { x: 8, y: -0.8, z: 1.7 },
       rotation: { x: 0, y: Math.PI / 2, z: 0 },
@@ -95,8 +95,8 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
       name: 'docs',
       isModel: false,
       images: [
-        '/photos/docs_1.jpg', '/photos/docs_2.jpg', '/photos/docs_3.jpg', '/photos/docs_4.jpg',
-        '/photos/docs_5.jpg', '/photos/docs_6.jpg', '/photos/docs_7.jpg', '/photos/docs_8.jpg'
+        '/3D/photos/docs_1.jpg', '/3D/photos/docs_2.jpg', '/3D/photos/docs_3.jpg', '/3D/photos/docs_4.jpg',
+        '/3D/photos/docs_5.jpg', '/3D/photos/docs_6.jpg', '/3D/photos/docs_7.jpg', '/3D/photos/docs_8.jpg'
       ],
       position: { x: 8, y: -0.8, z: 4.1 },
       rotation: { x: 0, y: Math.PI / 2, z: 0 },
@@ -106,7 +106,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'typewriter',
       isModel: false,
-      images: ['/photos/typewriter_1.jpg', '/photos/typewriter_2.jpg', '/photos/typewriter_3.jpg', '/photos/typewriter_4.jpg'],
+      images: ['/3D/photos/typewriter_1.jpg', '/3D/photos/typewriter_2.jpg', '/3D/photos/typewriter_3.jpg', '/3D/photos/typewriter_4.jpg'],
       position: { x: 1, y: -1.5, z: 8 },
       rotation: { x: 0, y: Math.PI, z: 0 },
       color: 0xffffff,
@@ -115,7 +115,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'iron',
       isModel: false,
-      images: ['/photos/iron_1.jpg', '/photos/iron_2.jpg', '/photos/iron_3.jpg',],
+      images: ['/3D/photos/iron_1.jpg', '/3D/photos/iron_2.jpg', '/3D/photos/iron_3.jpg',],
       position: { x: -2, y: -2.2, z: 8 },
       rotation: { x: 0, y: Math.PI, z: 0 },
       color: 0xffffff,
@@ -124,7 +124,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'radio',
       isModel: false,
-      images: ['/photos/radio_1.jpg', '/photos/radio_2.jpg', '/photos/radio_3.jpg',],
+      images: ['/3D/photos/radio_1.jpg', '/3D/photos/radio_2.jpg', '/3D/photos/radio_3.jpg',],
       position: { x: -2.1, y: -1.4, z: 8 },
       rotation: { x: 0, y: Math.PI, z: 0 },
       color: 0xffffff,
