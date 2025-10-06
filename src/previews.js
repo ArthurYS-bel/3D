@@ -64,7 +64,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: 'passport',
       isModel: true,
-      modelUrl: '/models/passport.glb',
+      modelUrl: '/3d/models/passport.glb',
       position: { x: 8, y: -0.8, z: 2.9 },
       rotation: { x: 0, y: Math.PI / 2, z: 0 },
       color: 0x8A9A5B,
@@ -134,7 +134,7 @@ export function createPreviewPlanes(scene, camera, renderer, roomId = 1) {
     {
       name: "smena",
       isModel: true,
-      modelUrl: '/models/smena_8m2.glb',
+      modelUrl: '/3d/models/smena_8m2.glb',
       position: { x: 0.5, y: -0.5, z: -8 },
       rotation: { x: 0, y: Math.PI, z: 0 },
       color: 0x8A9A5B,
