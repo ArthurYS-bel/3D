@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+    <meta charset="UTF-8">
+    <title>Three.js Комната</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .fixed-button {
+            position: fixed;
+            bottom: 20px;
+            padding: 10px 20px;
+            background-color: #222;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .fixed-button.left {
+            left: 20px;
+        }
+
+        .fixed-button.right {
+            right: 20px;
+        }
+
+        .fixed-button.top-right {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            padding: 8px 12px;
+            background: #444;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            z-index: 9999;
+            height: fit-content;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
